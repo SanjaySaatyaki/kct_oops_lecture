@@ -1,0 +1,7 @@
+- Object Creation login becomes too convoluted
+- Initalizer is not descriptive
+    -- Cannot overload with same sets of arguments with differnt names
+- Wholesale Object creation(non-piecewise, unlike builder) can be outsourced
+    -- A seperate method(Factory Method)
+    -- That may exist in a seperate class(Factory)
+    -- Can create hierarchy of factories with Abstract Factory
